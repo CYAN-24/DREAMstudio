@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DREAM studio</title>
+    <link rel="icon" href="./img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+  </head>
+  <body>
+    <div id="blur">
+      <!-- Header-Section -->
+      <header class="header">
+        <a href="#" class="logo-link">
+          <img class="logo-img" src="./img/logo-img.png" alt="" />
+        </a>
+        <nav class="nav">
+          <ul class="main-nav">
+            <li>
+              <a class="main-nav-link" href="#features-link">Features</a>
+            </li>
+            <li><a class="main-nav-link" href="#services-link">Services</a></li>
+            <li>
+              <a class="main-nav-link" href="#testimonials-link"
+                >Testimonials</a
+              >
+            </li>
+            <li><a class="main-nav-link nav-cta" href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-close-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+
+      <main>
+        <!-- Hero-Section -->
+        <section class="section-hero">
+          <div class="hero">
+            <div class="hero-text-box">
+              <h1 class="heading-primary">
+                Turn your DREAMS
+                <br />
+                into reality.
+              </h1>
+              <p class="hero-description">
+                Creating homes that tell your story.
+              </p>
+              <a class="btn btn--text btn--scroll-to" href="#features-link">
+                Explore now &darr;
+              </a>
+            </div>
+            <div class="hero-image-box">
+              <img
+                class="hero-img"
+                src="./img/hero-image.png"
+                alt="DREAM studio sample photos"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Features-Section -->
+        <section class="section-features" id="features-link">
+          <div class="section-title">
+            <h2 class="heading-secondary">- FEATURES -</h2>
+          </div>
+
+          <div class="features grid-2-columns">
+            <!-- Feature 1 -->
+            <img
+              class="features-image"
+              src="./img/features-img-sample.jpeg"
+              alt="feature 2 image"
+            />
+            <div class="features-feature">
+              <div class="feature-title">Lorem ipsum dolor sit amet</div>
+              <p class="feature-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                alias sint quos? Accusantium a fugiat porro reiciendis saepe
+                quibusdam debitis ducimus.
+              </p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="features-feature">
+              <div class="feature-title">Nesciunt quos autem dolorum</div>
+              <p class="feature-description">
+                Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+                inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+                quibusdam!
+              </p>
+            </div>
+            <img
+              class="features-image"
+              src="./img/features-img-sample.jpeg"
+              alt="feature 2 image"
+            />
+
+            <!-- Feature 3 -->
+            <img
+              class="features-image"
+              src="./img/features-img-sample.jpeg"
+              alt="feature 3 image"
+            />
+            <div class="features-feature">
+              <div class="feature-title">Quasi, fugit in cumque cupiditate</div>
+              <p class="feature-description">
+                Quasi, fugit in cumque cupiditate reprehenderit debitis animi
+                enim eveniet consequatur odit quam quos possimus assumenda dicta
+                fuga inventore ab.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section-services" id="services-link">
+          <div class="section-title">
+            <h2 class="heading-secondary">- SERVICES -</h2>
+          </div>
+          <div class="services-steps">
+            <button class="service active" data-tab="1">01 Consulting</button>
+            <button class="service" data-tab="2">02 Proposal</button>
+            <button class="service" data-tab="3">03 Renovation</button>
+            <button class="service" data-tab="4">04 Completion</button>
+            <div class="services-descriptions">
+              <div class="description-img">
+                <img src="./img/consult.jpg" alt="" />
+              </div>
+              <div class="description-info">
+                <h5 class="description-header">01 Consulting</h5>
+                <p class="description-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials-Section -->
+        <section class="section-testimonials" id="testimonials-link">
+          <div class="section-title">
+            <h2 class="heading-secondary">- TESTIMONIALS -</h2>
+          </div>
+
+          <div class="testimonials-container">
+            <!-- <button class="previous-customer">
+              <ion-icon
+                class="previous-icon"
+                name="chevron-back-outline"
+              ></ion-icon>
+            </button>
+            <button class="next-customer">
+              <ion-icon
+                class="next-icon"
+                name="chevron-forward-outline"
+              ></ion-icon>
+            </button> -->
+            <input type="radio" id="dot-1" name="control" checked />
+            <input type="radio" id="dot-2" name="control" />
+            <input type="radio" id="dot-3" name="control" />
+            <div class="controls-dots">
+              <label class="dot" for="dot-1"></label>
+              <label class="dot" for="dot-2"></label>
+              <label class="dot" for="dot-3"></label>
+            </div>
+            <ul class="customers">
+              <li class="customer" data-customer="1">
+                <h3 class="customer-review-header">Best decision ever!</h3>
+                <p class="customer-review">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </p>
+                <div class="customer-profile">
+                  <img
+                    class="customer-image"
+                    src="./img/user-1.jpg"
+                    alt="customer 1"
+                  />
+                  <div class="customer-info">
+                    <div class="customer-name">Steve Miller</div>
+                    <div class="customer-location">San Francisco, USA</div>
+                  </div>
+                </div>
+              </li>
+              <li class="customer" data-customer="2">
+                <h3 class="customer-review-header">Best decision ever!</h3>
+                <p class="customer-review">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </p>
+                <div class="customer-profile">
+                  <img
+                    class="customer-image"
+                    src="./img/user-1.jpg"
+                    alt="customer 1"
+                  />
+                  <div class="customer-info">
+                    <div class="customer-name">Steve Miller</div>
+                    <div class="customer-location">San Francisco, USA</div>
+                  </div>
+                </div>
+              </li>
+              <li class="customer" data-customer="3">
+                <h3 class="customer-review-header">Best decision ever!</h3>
+                <p class="customer-review">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </p>
+                <div class="customer-profile">
+                  <img
+                    class="customer-image"
+                    src="./img/user-1.jpg"
+                    alt="customer 1"
+                  />
+                  <div class="customer-info">
+                    <div class="customer-name">Steve Miller</div>
+                    <div class="customer-location">San Francisco, USA</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CTA-Section -->
+        <section class="section-cta">
+          <h3 class="cta-description">
+            Transform your space, elevate your style.
+            <br />
+            Design your dream home today.
+          </h3>
+          <a class="cta-btn nav-cta" href="#">Contact Us</a>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <img class="footer-logo" src="./img/logo.png" alt="footer logo" />
+        <div class="company-info company-address">
+          10 Ang Mo Kio Avenue 1. Singapore 122333
+        </div>
+        <div class="company-info company-email">hello@dreamstudio.com</div>
+        <ul class="social-links">
+          <li>
+            <a class="social-link" href="#">
+              <ion-icon class="social-icon" name="logo-facebook"> </ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="#">
+              <ion-icon class="social-icon" name="logo-twitter"> </ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="#">
+              <ion-icon class="social-icon" name="logo-instagram"> </ion-icon>
+            </a>
+          </li>
+        </ul>
+        <div class="copyright">
+          Copyright © 2024 by DreamStudio, Inc. All rights reserved.
+        </div>
+      </footer>
+    </div>
+
+    <div class="contact-popup">
+      <button class="close-button">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <h2 class="heading-secondary">Contact Us</h2>
+      <form class="contact-form form-input active" action="">
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" />
+        <label for="contact-number">Contact Number: </label>
+        <input type="number" id="contact-number" />
+        <label for="email">Email Address: </label>
+        <input type="email" id="email" />
+        <button class="submit-form">Submit</button>
+      </form>
+      <form class="contact-form-mobile form-input" action="">
+        <input type="text" id="name" placeholder="Full Name" />
+        <input type="number" id="contact-number" placeholder="Contact Number" />
+        <input type="email" id="email" placeholder="Email Address" />
+        <button class="submit-form">Submit</button>
+      </form>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
